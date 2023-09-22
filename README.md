@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Keyboard Music
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### これは何？
 
-## Available Scripts
+キーボードで音楽を奏でることができる Web アプリです。<br>
+「ピアノを弾いてみたいけど楽譜が読めない…」<br>
+「そんなに練習できる時間がない…」<br>
+という人でも、タイピングが得意なら大丈夫！<br>
+タイピング感覚で音楽を奏でることができます！<br>
 
-In the project directory, you can run:
+自動化機能も搭載しているので、<br>
+「自分で弾くのはちょっと…」<br>
+という人でも、自動で演奏してくれます！<br>
 
-### `npm start`
+### キーマップを変更する
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+キーマップは簡単に変更できます。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 基本設定ファイルのダウンロードと編集
 
-### `npm test`
+まずは、メニューの<br>
+「設定ファイル」→「基本設定のダウンロード」<br>
+から、設定ファイルをダウンロードしましょう。<br>
+ダウンロードした設定ファイルをお好みのテキストエディタで開いて、
+キーマップ(map)を変更してください。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 設定ファイルの読み込み
 
-### `npm run build`
+編集した設定ファイルを、メニューの
+「設定ファイル」→「ファイルを選択」<br>
+から読み込みます。<br>
+読み込むと自動的に反映されます。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 改変する
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+このWebアプリは、オープンソースです。<br>
+[GitHub](https://github.com/masabando/keyboard-music) でソースコードを公開していますので、
+自由に改変してください。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
