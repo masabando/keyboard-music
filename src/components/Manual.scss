@@ -1,0 +1,20 @@
+.manual {
+  color: #222;
+
+  h4 {
+    margin-top: 3em;
+    border-left: 4px solid #ccc;
+    padding-left: 0.2em;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  h5 {
+    margin-top: 1em;
+  }
+}
+
+.note {
+  background:linear-gradient(transparent 60%, #ff6 60%);
+  font-weight: bold;
+}

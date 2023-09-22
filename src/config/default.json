@@ -1,0 +1,589 @@
+{
+  "volume": 0.2,
+  "oscillator" : {
+    "type": ["sine", "square", "sawtooth", "triangle"]
+  },
+  "automata": ". . . . . . l j\nm - fe . fe . l j\nm - fe . fe . l j\nm - fe . v - fe .\nx - gw . gw . l j\nx - gw . gw . l j\nx - gw . gw . l j\nx - gw . v - gw .\nm - fe . fe",
+  "sounds": [
+    { "notation": "A0", "label": "A", "category": 0, "hz": 27.5, "map": null },
+    {
+      "notation": "A#0",
+      "label": "A#",
+      "category": 0,
+      "hz": 29.13523509488062,
+      "map": null
+    },
+    {
+      "notation": "B0",
+      "label": "B",
+      "category": 0,
+      "hz": 30.867706328507758,
+      "map": null
+    },
+    {
+      "notation": "C1",
+      "label": "C",
+      "category": 1,
+      "hz": 32.703195662574814,
+      "map": null
+    },
+    {
+      "notation": "C#1",
+      "label": "C#",
+      "category": 1,
+      "hz": 34.647828872109,
+      "map": null
+    },
+    {
+      "notation": "D1",
+      "label": "D",
+      "category": 1,
+      "hz": 36.70809598967593,
+      "map": null
+    },
+    {
+      "notation": "D#1",
+      "label": "D#",
+      "category": 1,
+      "hz": 38.8908729652601,
+      "map": null
+    },
+    {
+      "notation": "E1",
+      "label": "E",
+      "category": 1,
+      "hz": 41.20344461410873,
+      "map": null
+    },
+    {
+      "notation": "F1",
+      "label": "F",
+      "category": 1,
+      "hz": 43.65352892912548,
+      "map": null
+    },
+    {
+      "notation": "F#1",
+      "label": "F#",
+      "category": 1,
+      "hz": 46.24930283895429,
+      "map": null
+    },
+    {
+      "notation": "G1",
+      "label": "G",
+      "category": 1,
+      "hz": 48.99942949771866,
+      "map": null
+    },
+    {
+      "notation": "G#1",
+      "label": "G#",
+      "category": 1,
+      "hz": 51.91308719749314,
+      "map": null
+    },
+    { "notation": "A1", "label": "A", "category": 1, "hz": 55.0, "map": null },
+    {
+      "notation": "A#1",
+      "label": "A#",
+      "category": 1,
+      "hz": 58.27047018976124,
+      "map": null
+    },
+    {
+      "notation": "B1",
+      "label": "B",
+      "category": 1,
+      "hz": 61.735412657015516,
+      "map": null
+    },
+    {
+      "notation": "C2",
+      "label": "C",
+      "category": 2,
+      "hz": 65.40639132514963,
+      "map": null
+    },
+    {
+      "notation": "C#2",
+      "label": "C#",
+      "category": 2,
+      "hz": 69.295657744218,
+      "map": null
+    },
+    {
+      "notation": "D2",
+      "label": "D",
+      "category": 2,
+      "hz": 73.41619197935186,
+      "map": null
+    },
+    {
+      "notation": "D#2",
+      "label": "D#",
+      "category": 2,
+      "hz": 77.7817459305202,
+      "map": null
+    },
+    {
+      "notation": "E2",
+      "label": "E",
+      "category": 2,
+      "hz": 82.40688922821747,
+      "map": null
+    },
+    {
+      "notation": "F2",
+      "label": "F",
+      "category": 2,
+      "hz": 87.30705785825096,
+      "map": null
+    },
+    {
+      "notation": "F#2",
+      "label": "F#",
+      "category": 2,
+      "hz": 92.49860567790859,
+      "map": null
+    },
+    {
+      "notation": "G2",
+      "label": "G",
+      "category": 2,
+      "hz": 97.99885899543732,
+      "map": null
+    },
+    {
+      "notation": "G#2",
+      "label": "G#",
+      "category": 2,
+      "hz": 103.82617439498628,
+      "map": null
+    },
+    { "notation": "A2", "label": "A", "category": 2, "hz": 110.0, "map": null },
+    {
+      "notation": "A#2",
+      "label": "A#",
+      "category": 2,
+      "hz": 116.54094037952248,
+      "map": null
+    },
+    {
+      "notation": "B2",
+      "label": "B",
+      "category": 2,
+      "hz": 123.47082531403103,
+      "map": null
+    },
+    {
+      "notation": "C3",
+      "label": "C",
+      "category": 3,
+      "hz": 130.81278265029925,
+      "map": null
+    },
+    {
+      "notation": "C#3",
+      "label": "C#",
+      "category": 3,
+      "hz": 138.591315488436,
+      "map": null
+    },
+    {
+      "notation": "D3",
+      "label": "D",
+      "category": 3,
+      "hz": 146.83238395870373,
+      "map": null
+    },
+    {
+      "notation": "D#3",
+      "label": "D#",
+      "category": 3,
+      "hz": 155.5634918610404,
+      "map": null
+    },
+    {
+      "notation": "E3",
+      "label": "E",
+      "category": 3,
+      "hz": 164.81377845643493,
+      "map": null
+    },
+    {
+      "notation": "F3",
+      "label": "F",
+      "category": 3,
+      "hz": 174.6141157165019,
+      "map": null
+    },
+    {
+      "notation": "F#3",
+      "label": "F#",
+      "category": 3,
+      "hz": 184.99721135581717,
+      "map": null
+    },
+    {
+      "notation": "G3",
+      "label": "G",
+      "category": 3,
+      "hz": 195.99771799087463,
+      "map": null
+    },
+    {
+      "notation": "G#3",
+      "label": "G#",
+      "category": 3,
+      "hz": 207.65234878997256,
+      "map": null
+    },
+    { "notation": "A3", "label": "A", "category": 3, "hz": 220.0, "map": null },
+    {
+      "notation": "A#3",
+      "label": "A#",
+      "category": 3,
+      "hz": 233.08188075904496,
+      "map": null
+    },
+    {
+      "notation": "B3",
+      "label": "B",
+      "category": 3,
+      "hz": 246.94165062806206,
+      "map": null
+    },
+    {
+      "notation": "C4",
+      "label": "C",
+      "category": 4,
+      "hz": 261.6255653005985,
+      "map": "z"
+    },
+    {
+      "notation": "C#4",
+      "label": "C#",
+      "category": 4,
+      "hz": 277.182630976872,
+      "map": "x"
+    },
+    {
+      "notation": "D4",
+      "label": "D",
+      "category": 4,
+      "hz": 293.66476791740746,
+      "map": "c"
+    },
+    {
+      "notation": "D#4",
+      "label": "D#",
+      "category": 4,
+      "hz": 311.1269837220808,
+      "map": "v"
+    },
+    {
+      "notation": "E4",
+      "label": "E",
+      "category": 4,
+      "hz": 329.62755691286986,
+      "map": "b"
+    },
+    {
+      "notation": "F4",
+      "label": "F",
+      "category": 4,
+      "hz": 349.2282314330038,
+      "map": "n"
+    },
+    {
+      "notation": "F#4",
+      "label": "F#",
+      "category": 4,
+      "hz": 369.99442271163434,
+      "map": "m"
+    },
+    {
+      "notation": "G4",
+      "label": "G",
+      "category": 4,
+      "hz": 391.99543598174927,
+      "map": "a"
+    },
+    {
+      "notation": "G#4",
+      "label": "G#",
+      "category": 4,
+      "hz": 415.3046975799451,
+      "map": "s"
+    },
+    { "notation": "A4", "label": "A", "category": 4, "hz": 440.0, "map": "d" },
+    {
+      "notation": "A#4",
+      "label": "A#",
+      "category": 4,
+      "hz": 466.1637615180899,
+      "map": "f"
+    },
+    {
+      "notation": "B4",
+      "label": "B",
+      "category": 4,
+      "hz": 493.8833012561241,
+      "map": "g"
+    },
+    {
+      "notation": "C5",
+      "label": "C",
+      "category": 5,
+      "hz": 523.251130601197,
+      "map": "h"
+    },
+    {
+      "notation": "C#5",
+      "label": "C#",
+      "category": 5,
+      "hz": 554.365261953744,
+      "map": "j"
+    },
+    {
+      "notation": "D5",
+      "label": "D",
+      "category": 5,
+      "hz": 587.3295358348149,
+      "map": "k"
+    },
+    {
+      "notation": "D#5",
+      "label": "D#",
+      "category": 5,
+      "hz": 622.2539674441616,
+      "map": "l"
+    },
+    {
+      "notation": "E5",
+      "label": "E",
+      "category": 5,
+      "hz": 659.2551138257397,
+      "map": "q"
+    },
+    {
+      "notation": "F5",
+      "label": "F",
+      "category": 5,
+      "hz": 698.4564628660077,
+      "map": "w"
+    },
+    {
+      "notation": "F#5",
+      "label": "F#",
+      "category": 5,
+      "hz": 739.9888454232687,
+      "map": "e"
+    },
+    {
+      "notation": "G5",
+      "label": "G",
+      "category": 5,
+      "hz": 783.9908719634985,
+      "map": "r"
+    },
+    {
+      "notation": "G#5",
+      "label": "G#",
+      "category": 5,
+      "hz": 830.6093951598903,
+      "map": "t"
+    },
+    { "notation": "A5", "label": "A", "category": 5, "hz": 880.0, "map": "y" },
+    {
+      "notation": "A#5",
+      "label": "A#",
+      "category": 5,
+      "hz": 932.3275230361799,
+      "map": "u"
+    },
+    {
+      "notation": "B5",
+      "label": "B",
+      "category": 5,
+      "hz": 987.7666025122483,
+      "map": "i"
+    },
+    {
+      "notation": "C6",
+      "label": "C",
+      "category": 6,
+      "hz": 1046.502261202394,
+      "map": "o"
+    },
+    {
+      "notation": "C#6",
+      "label": "C#",
+      "category": 6,
+      "hz": 1108.730523907488,
+      "map": null
+    },
+    {
+      "notation": "D6",
+      "label": "D",
+      "category": 6,
+      "hz": 1174.6590716696298,
+      "map": null
+    },
+    {
+      "notation": "D#6",
+      "label": "D#",
+      "category": 6,
+      "hz": 1244.5079348883232,
+      "map": null
+    },
+    {
+      "notation": "E6",
+      "label": "E",
+      "category": 6,
+      "hz": 1318.5102276514795,
+      "map": null
+    },
+    {
+      "notation": "F6",
+      "label": "F",
+      "category": 6,
+      "hz": 1396.9129257320153,
+      "map": null
+    },
+    {
+      "notation": "F#6",
+      "label": "F#",
+      "category": 6,
+      "hz": 1479.9776908465374,
+      "map": null
+    },
+    {
+      "notation": "G6",
+      "label": "G",
+      "category": 6,
+      "hz": 1567.981743926997,
+      "map": null
+    },
+    {
+      "notation": "G#6",
+      "label": "G#",
+      "category": 6,
+      "hz": 1661.2187903197805,
+      "map": null
+    },
+    {
+      "notation": "A6",
+      "label": "A",
+      "category": 6,
+      "hz": 1760.0,
+      "map": null
+    },
+    {
+      "notation": "A#6",
+      "label": "A#",
+      "category": 6,
+      "hz": 1864.6550460723597,
+      "map": null
+    },
+    {
+      "notation": "B6",
+      "label": "B",
+      "category": 6,
+      "hz": 1975.5332050244965,
+      "map": null
+    },
+    {
+      "notation": "C7",
+      "label": "C",
+      "category": 7,
+      "hz": 2093.004522404788,
+      "map": null
+    },
+    {
+      "notation": "C#7",
+      "label": "C#",
+      "category": 7,
+      "hz": 2217.461047814976,
+      "map": null
+    },
+    {
+      "notation": "D7",
+      "label": "D",
+      "category": 7,
+      "hz": 2349.3181433392597,
+      "map": null
+    },
+    {
+      "notation": "D#7",
+      "label": "D#",
+      "category": 7,
+      "hz": 2489.0158697766465,
+      "map": null
+    },
+    {
+      "notation": "E7",
+      "label": "E",
+      "category": 7,
+      "hz": 2637.020455302959,
+      "map": null
+    },
+    {
+      "notation": "F7",
+      "label": "F",
+      "category": 7,
+      "hz": 2793.8258514640306,
+      "map": null
+    },
+    {
+      "notation": "F#7",
+      "label": "F#",
+      "category": 7,
+      "hz": 2959.9553816930747,
+      "map": null
+    },
+    {
+      "notation": "G7",
+      "label": "G",
+      "category": 7,
+      "hz": 3135.963487853994,
+      "map": null
+    },
+    {
+      "notation": "G#7",
+      "label": "G#",
+      "category": 7,
+      "hz": 3322.437580639561,
+      "map": null
+    },
+    {
+      "notation": "A7",
+      "label": "A",
+      "category": 7,
+      "hz": 3520.0,
+      "map": null
+    },
+    {
+      "notation": "A#7",
+      "label": "A#",
+      "category": 7,
+      "hz": 3729.3100921447194,
+      "map": null
+    },
+    {
+      "notation": "B7",
+      "label": "B",
+      "category": 7,
+      "hz": 3951.066410048993,
+      "map": null
+    },
+    {
+      "notation": "C8",
+      "label": "C",
+      "category": 8,
+      "hz": 4186.009044809576,
+      "map": null
+    }
+  ]
+}

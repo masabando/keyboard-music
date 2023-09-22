@@ -1,0 +1,41 @@
+.key {
+  display: inline-block;
+  width: 50px;
+  height: 160px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 240px;
+  cursor: pointer;
+  background-color: #fff;
+
+  &.active {
+    background-color: #ccc;
+  }
+}
+
+
+.key-white {
+  color: #333;
+}
+
+.key-black {
+  position: relative;
+  top: -30px;
+  left: -25px;
+  width: 40px;
+  height: 100px;
+  margin: 0 5px;
+  padding-top: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  line-height: 120px;
+  color: #fff;
+  z-index: 1;
+}
+.key-black + .key-white {
+  margin-left: -50px;
+}
