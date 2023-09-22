@@ -1,5 +1,7 @@
 # Keyboard Music
 
+[デモページ](https://masabando.github.io/keyboard-music/)
+
 ### これは何？
 
 キーボードで音楽を奏でることができる Web アプリです。<br>
